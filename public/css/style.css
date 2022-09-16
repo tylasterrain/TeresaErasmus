@@ -1,0 +1,589 @@
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.page {
+  overflow: hidden;
+
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin: 0 0 20px;
+  font-size: 36px;
+  color: #ebebeb;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333;
+}
+h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: 400;
+}
+h5 {
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 20px;
+}
+p {
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+p.intro {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+a {
+  color: #608dfd;
+  font-weight: 400;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #608dfd;
+}
+ul,
+ol {
+  list-style: none;
+}
+ul,
+ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0;
+}
+hr {
+  height: 2px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #1e7a46;
+  margin-bottom: 20px;
+  border: 0;
+}
+
+
+/* ------------------------------------------------- */
+
+/* Navigation */
+
+.logo {
+  height: 8rem;
+  margin-top: -3rem !important;
+}
+
+#menu {
+  padding: 1.5rem;
+  transition: all 0.8s;
+  z-index:2;
+}
+#menu.navbar-default {
+  background-color: #fff;
+  border-color: rgba(231, 231, 231, 0);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+  
+}
+#menu a.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #333;
+  text-transform: uppercase;
+}
+#menu.navbar-default .navbar-nav > li > a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: #555;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 9px 20px 0;
+}
+#menu.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #8a9097 0%, #000000 100%);
+  content: "";
+  transition: width 0.2s;
+}
+#menu.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a:after,
+.navbar-default .navbar-nav > .active > a:hover:after,
+.navbar-default .navbar-nav > .active > a:focus:after {
+  display: block !important;
+  position: absolute !important;
+  left: 0 !important;
+  bottom: -1px !important;
+  width: 100% !important;
+  height: 2px !important;
+  background: linear-gradient(to right, #8a9097 0%, #000000 100%) !important;
+  content: "" !important;
+  transition: width 0.2s !important;
+}
+
+  
+.navbar-default .navbar-toggle:hover > .icon-bar {
+  background-color: #608dfd;
+
+}
+
+.close-navbar-toggler{
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:1;
+  cursor:pointer;
+}
+.close-navbar-toggler.collapsed{
+  z-index:-1;
+}
+
+/* ------------------------------------------------- */
+
+/* Header Section */
+
+header .intro-text {
+  padding-top: 18rem;
+  padding-bottom: 9rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  text-align: center;
+}
+
+#header {
+   background: url("https://images.unsplash.com/photo-1505488387362-48bc38155987?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80") center center no-repeat;
+  background-color: #070707;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+background-attachment: fixed;
+  width: 100%;
+}
+
+.intro .overlay {
+  background: rgba(14, 23, 28, 0.8);
+  z-index: 2;
+}
+.header-title {
+  font-family: 'Cormorant Garamond', serif;
+  color: #fff;
+  font-size: 6rem;
+  letter-spacing: 0.05rem;
+  word-spacing: 1.5rem;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.header-subtitle {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-bottom: 6.5rem;
+}
+
+
+.btn-custom {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: black;
+  background-color: white;
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: 900;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+  opacity: 70%;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #fff;
+  background-color: #000000;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+
+
+
+/* ------------------------------------------------- */
+
+/* About Section */
+
+#about {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: #243754;
+  color: white;
+}
+
+#about h2 {
+  position: relative;
+  margin-bottom: 1.3rem;
+}
+
+#about p {
+  line-height: 24px;
+  margin: 4rem;
+}
+
+/* ------------------------------------------------- */
+
+/* Team Section */
+
+#team {
+  padding: 5rem 0;
+  background-color: #0e171c;
+  color: #fff;
+}
+
+#team h2 {
+  
+  margin-bottom: 4rem;
+}
+
+#team h4 {
+  color: white;
+  margin: 5px 0;
+}
+#team .team-img {
+  width: 20rem;
+  border-radius: 50%;
+  padding: 1rem 0;
+}
+#team .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#team .thumbnail .caption {
+  padding: 1rem 0;
+  color: rgb(207, 207, 207);
+}
+
+.member-desc {
+  color: white;
+  padding: 0.6rem 3rem;
+  text-align: justify;
+ 
+}
+
+
+/* ------------------------------------------------- */
+
+/* Services Section */
+
+#services {
+  padding: 4rem 0;
+  background-color:  #243754;
+  color: #fff;
+}
+
+
+
+#services i.fa {
+  font-size: 4rem;
+  width: 12rem;
+  height: 12rem;
+  padding: 4rem 0;
+  background: #ebebeb;
+  border-radius: 50%;
+  color: #243754;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+#services h3 {
+  padding: 0.5rem 0;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+  color: white;
+}
+#services p {
+  color: #ebebeb;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+
+.flip-card {
+  background-color: transparent;
+  width: 25rem;
+  height: 22rem;
+  perspective: 1000px; 
+  padding: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: transparent;
+  color: black;
+  padding: 1rem;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: transparent;
+  color: white;
+  transform: rotateY(180deg);
+  padding: 0 1rem;
+}
+
+/* ------------------------------------------------- */
+
+/* Virtual Law Section */
+
+#features {
+  padding: 5rem 0;
+  text-align: center;
+  background-color: #0e171c;
+  color: white;
+}
+#features h2 {
+  margin-bottom: 3rem;
+}
+
+#features h3 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2.5rem;
+  line-height: 2.8rem;
+  color: #ebebeb;
+}
+#features p {
+  padding: 3.5rem;
+  padding-top: 1.5rem;
+}
+
+#features i.fa {
+  font-size: 38px;
+  transition: all 0.5s;
+  color: #0e171c;
+  width: 100px;
+  height: 100px;
+  padding: 30px 0;
+  border-radius: 50%;
+  background: #ebebeb;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.feature {
+  padding: 2rem;
+}
+
+/* ------------------------------------------------- */
+
+/* Contact Form Section */
+
+#contact {
+  padding: 5rem 0;
+  text-align: center;
+background-color: #243754;
+}
+
+#contact h2 {
+
+}
+
+#contact h3 {
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+#contact form {
+  padding-top: 20px;
+}
+#contact .text-danger {
+  color: #cc0033;
+  text-align: left;
+}
+#contact .btn-custom {
+  margin: 2rem 0;
+  background:  linear-gradient(to right,  #1b1b1b 0%, #000000 100%);
+  border: 2px solid #fff;
+  color: white;
+}
+#contact .btn-custom:hover {
+  color: white;
+  background: #4e4e4e;
+}
+label {
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+}
+#contact .form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 1.5rem;
+  line-height: 1.42857143;
+  color: #444;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+#contact .form-control:focus {
+  border-color: #999;
+  outline: 0;
+  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+  color: #777;
+}
+.form-control:-moz-placeholder {
+  color: #777;
+}
+.form-control::-moz-placeholder {
+  color: #777;
+}
+.form-control:-ms-input-placeholder {
+  color: #777;
+}
+
+/* ------------------------------------------------- */
+
+/* Contact Info Section*/
+
+#contactInfo {
+  padding: 5rem 0;
+  background-color: #0e171c;
+  color: white;
+}
+
+.contact-details {
+
+  color: white;
+  padding: 1.8rem;
+  height: 60%;
+  width: 100%;
+}
+
+
+#contactInfo .contact-item {
+  margin: 1rem;
+  padding: 1rem;
+}
+#contactInfo .contact-item span {
+  color: white;
+  margin-bottom: 1rem;
+  display: block;
+}
+#contactInfo .contact-item i.fa {
+  margin-right: 1rem;
+}
+
+
+/* ------------------------------------------------- */
+
+/* Footer Section*/
+
+#footer {
+  background-color: #243754;
+  padding: 30px 0;
+}
+#footer p {
+  color: #ebebeb;
+  font-size: 14px;
+}
+#footer a {
+  color: #608dfd;
+}
+#footer a:hover {
+  border-bottom: 2px solid #608dfd;
+}
+
+@media (max-width: 768px) {
+  #about img {
+    margin: 50px 0;
+  }
+}

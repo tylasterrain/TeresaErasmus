@@ -1,0 +1,92 @@
+{
+  "Header": {
+    "title": "Teresa Erasmus Attorneys",
+    "paragraph": "Law - Arbitration & Mediation - Virtual Law"
+  },
+  "About": {
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+
+  "Navigation": [
+    {
+      "img": "img/logo.png"
+    }
+  ],
+
+  "Services": [
+    {
+      "icon": "fa fa-scale-balanced",
+      "name": "Arbitrations",
+      "text": "Arbitration is a binding approach to dipute resolution where the arbitrator is an independent private person, instead of a court-appointed judge."
+    },
+    {
+      "icon": "fa fa-handshake-o",
+      "name": "Mediation",
+      "text": "Mediation is a volunatry process that is conducted with a mediator who does not judge the case but facilitates discussion and resolution of the dispute."
+    }, 
+    {
+      "icon": "fa fa-briefcase",
+      "name": "Commercial Law",
+      "text": "Commercial law, also known as Business law, regulates the conduct of entities who are engaged in commercial transactions."
+    },
+  
+    {
+      "icon": "fa fa-building",
+      "name": "Construction Law",
+      "text": "Construction law governs the contractual principles that are associated with the rights and duties of entities engaged in a construction agreement."
+    },
+    {
+      "icon": "fa fa-people-roof",
+      "name": "Family Law and Divorces",
+      "text": "Family law covers family matters and domestic relationships including marriage, adoption, divorce, child custody, domestic violence, and other family related issues."
+    },
+    {
+      "icon": "fa fa-people-arrows",
+      "name": "Employment Law",
+      "text": "Employment law regulates the employer-employee relationship by governing the rights and responsibilities of both parties."
+    }, 
+    {
+      "icon": "fa fa-lock",
+      "name": "Restraints of Trade and Unlawful Competition",
+      "text": "The restraint of trade clause limits an employee from competing with a previous employer for the commerce of the employer."
+    }
+  ],
+
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Virtual Consultations",
+      "text": "Book a 30 minute meeting to establish the merits of your case OR Book a full consultation online"
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Virtual Hearings",
+      "text": "Disciplinary hearing, Commercial Arbitration, and Mediation can be conducted for Employment Law, Commercial Law, and Family Law"
+    }
+  ],
+
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Teresa Erasmus",
+      "job": "Lawyer",
+      "pdesc": "Teresa Erasmus holds a BA.LLB degree through the University of Stellenbosch, as well as an Advanced Labour Law Certificate and an Advanced Pension Funds Law Certificate from the University of South Africa (UNISA). Teresa is an admitted attorney with the right to appear in the High Court, a fellow of the of the Association of Arbitrators, an accredited Family Law Mediator and Facilitator, FAMAC, Workplace and Employment Law Mediator, and UK Accredited Commercial Mediator, ADR Group. Since becoming an accredited CCMA Commissioner in 2004, Teresa has served on the panel of various dispute resolution Councils. Since the foundation of Teresa Erasmus Attorneys on the 3rd of January 1995, Teresa has practiced as a sole proprietor and provides her clients with assistance in the areas of Labour Law, Commercial Law, Construction Law, and Family and Divorce Law. Committed to providing personal service of integrity and focused on developing relationships based on trust, Teresa ensures that all her work is done efficiently, effectively, and within the prescribed time frame."
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Hanno Erasmus",
+      "job": "Paralegal",
+      "pdesc": "Hanno is employed as paralegal at Teresa Erasmus Attorneys while he continues with his third year of LLB studies at the University of South Africa (UNISA). He commenced employment with the practice in the beginning of 2021, shortly after completing his Higher Certificate in law cum laude in 2020. Hanno attended school in Stellenbosch and received his matric certificate from Paul Roos Gymnasium in the year of 2016. In 2019 he obtained a TEFL teaching certificate and spent time teaching English at public schools and language centres in Vietnam. The conservation of nature is a large focus for Hanno, having completed the FGASA level 1 field guide course in the Greater Kruger he followed this path of nature conservation by completing a short course in Environmental Law through UNISA in 2018. Hanno aspires to be an Environmental Lawyer and is focusing on expanding Teresa Erasmus Attorneys into the current world of Sustainability and Conservation."
+    }
+  ],
+  "Contact": {
+    "address": "",
+    "phone": "021 880 2178",
+    "email": "admin@teresaerasmusattorneys.com",
+    "facebook": "",
+    "twitter": "",
+    "youtube": "",
+    "linkd": "Teresa Erasmus"
+  }
+
+}
